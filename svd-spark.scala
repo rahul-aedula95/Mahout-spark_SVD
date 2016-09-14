@@ -20,3 +20,7 @@ val currentMinute = Calendar.getInstance().get(Calendar.MINUTE)
   // Compute SVD
   val svd = mat.computeSVD(mat.numCols().toInt, computeU = true)
  }
+
+val currentHour = Calendar.getInstance().get(Calendar.HOUR) 
+
+val currentMinute = Calendar.getInstance().get(Calendar.MINUTE) 
